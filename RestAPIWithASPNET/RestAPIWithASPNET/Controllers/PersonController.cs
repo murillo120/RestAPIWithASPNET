@@ -1,10 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using RestAPIWithASPNET.Model;
-using RestAPIWithASPNET.Services.Implementations;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using RestAPIWithASPNET.Repository;
 
 namespace RestAPIWithASPNET.Controllers
 {

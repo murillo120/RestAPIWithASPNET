@@ -6,7 +6,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using RestAPIWithASPNET.Model.Context;
-using RestAPIWithASPNET.Services.Implementations;
+using RestAPIWithASPNET.Repository;
+using RestAPIWithASPNET.Repository.Implementations;
 
 namespace RestAPIWithASPNET
 {
@@ -30,7 +31,7 @@ namespace RestAPIWithASPNET
 
             services.AddDbContext<MySQLContext>(options => options.UseMySql(connection));
 
-            services.AddScoped<IPersonRepository, PersonServiceImpl>();
+            services.AddScoped<IPersonRepository, PersonRespositoryImpl>();
 
             services.AddSwaggerGen(c =>
             {
