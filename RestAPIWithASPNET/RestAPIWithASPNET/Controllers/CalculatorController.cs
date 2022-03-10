@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace RestAPIWithASPNET.Controllers
 {
+    [ApiVersion("1")]
     [ApiController]
     [Route("[controller]")]
     public class CalculatorController : ControllerBase

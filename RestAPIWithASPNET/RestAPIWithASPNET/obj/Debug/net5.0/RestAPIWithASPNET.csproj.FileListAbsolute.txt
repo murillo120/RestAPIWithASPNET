@@ -35,3 +35,14 @@ X:\Projetos\.net\RestAPIWithASPNET\RestAPIWithASPNET\RestAPIWithASPNET\bin\Debug
 X:\Projetos\.net\RestAPIWithASPNET\RestAPIWithASPNET\RestAPIWithASPNET\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
 X:\Projetos\.net\RestAPIWithASPNET\RestAPIWithASPNET\RestAPIWithASPNET\bin\Debug\net5.0\Pomelo.JsonObject.dll
 X:\Projetos\.net\RestAPIWithASPNET\RestAPIWithASPNET\RestAPIWithASPNET\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+X:\Projetos\.net\RestAPIWithASPNET\RestAPIWithASPNET\RestAPIWithASPNET\bin\Debug\net5.0\Evolve.dll
+X:\Projetos\.net\RestAPIWithASPNET\RestAPIWithASPNET\RestAPIWithASPNET\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+X:\Projetos\.net\RestAPIWithASPNET\RestAPIWithASPNET\RestAPIWithASPNET\bin\Debug\net5.0\Serilog.dll
+X:\Projetos\.net\RestAPIWithASPNET\RestAPIWithASPNET\RestAPIWithASPNET\bin\Debug\net5.0\Serilog.AspNetCore.dll
+X:\Projetos\.net\RestAPIWithASPNET\RestAPIWithASPNET\RestAPIWithASPNET\bin\Debug\net5.0\Serilog.Extensions.Hosting.dll
+X:\Projetos\.net\RestAPIWithASPNET\RestAPIWithASPNET\RestAPIWithASPNET\bin\Debug\net5.0\Serilog.Extensions.Logging.dll
+X:\Projetos\.net\RestAPIWithASPNET\RestAPIWithASPNET\RestAPIWithASPNET\bin\Debug\net5.0\Serilog.Formatting.Compact.dll
+X:\Projetos\.net\RestAPIWithASPNET\RestAPIWithASPNET\RestAPIWithASPNET\bin\Debug\net5.0\Serilog.Settings.Configuration.dll
+X:\Projetos\.net\RestAPIWithASPNET\RestAPIWithASPNET\RestAPIWithASPNET\bin\Debug\net5.0\Serilog.Sinks.Console.dll
+X:\Projetos\.net\RestAPIWithASPNET\RestAPIWithASPNET\RestAPIWithASPNET\bin\Debug\net5.0\Serilog.Sinks.Debug.dll
+X:\Projetos\.net\RestAPIWithASPNET\RestAPIWithASPNET\RestAPIWithASPNET\bin\Debug\net5.0\Serilog.Sinks.File.dll

@@ -1,17 +1,19 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using RestAPIWithASPNET.Business.Implementations;
+using RestAPIWithASPNET.Data.DTO;
 using RestAPIWithASPNET.Model;
 using RestAPIWithASPNET.Repository;
 
 namespace RestAPIWithASPNET.Controllers
 {
-    [ApiVersion("2")]
+    [ApiVersion("1")]
     [ApiController]
     [Route("api/v{version:apiVersion}/[controller]")]
     public class PersonController : ControllerBase
     {
-        private IPersonRepository iPerson;
+        private IPersonBusiness iPerson;
 
-        public PersonController(IPersonRepository iPerson)
+        public PersonController(IPersonBusiness iPerson)
         {
             this.iPerson = iPerson;
         }
@@ -33,7 +35,7 @@ namespace RestAPIWithASPNET.Controllers
 
 
         [HttpPost]
-        public IActionResult PostPerson([FromBody] Person p)
+        public IActionResult PostPerson([FromBody] PersonDTO p)
         {
             if (p == null) return BadRequest();
             return Ok(iPerson.Create(p));
@@ -41,7 +43,7 @@ namespace RestAPIWithASPNET.Controllers
 
 
         [HttpPut]
-        public IActionResult UpdatePerson([FromBody]Person p)
+        public IActionResult UpdatePerson([FromBody]PersonDTO p)
         {
             if (p == null) return BadRequest();
             return Ok(iPerson.Update(p));

@@ -19,5 +19,6 @@ namespace RestAPIWithASPNET.Model.Context
         }
 
         public DbSet<Person> Peoples { get; set; }
+        public DbSet<Book> Books { get; set; }
     }
 }
